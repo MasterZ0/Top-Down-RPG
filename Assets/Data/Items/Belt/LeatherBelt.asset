@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b58a49f75586bc4f89de2611ca2a351, type: 3}
+  m_Name: LeatherBelt
+  m_EditorClassIdentifier: 
+  prefab: {fileID: -7236524350209134010, guid: 1fd415c049b5a374a82cc70ea49ed463, type: 3}
+  material: {fileID: 0}
+  icon: {fileID: -1259409885, guid: 00fe87d5d5bf13146b94d62c4b1fdb4f, type: 3}
+  sellingPrice: 1000
+  buyPrice: 0
+  itemName: 
+  itemDescription: 

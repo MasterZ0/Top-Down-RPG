@@ -1,0 +1,17 @@
+using Z3.NodeGraph.Core;
+using AdventureGame.Shared;
+
+#ROOTNAMESPACEBEGIN# 
+
+    [NodeCategory(ProjectPath.ApplicationName + "/NewActionTask")]
+    [NodeDescription("Please describe what this ActionTask does.")]
+    public class #SCRIPTNAME# : ActionTask 
+    {
+        [RequiredField] public BBParameter<string> example = "Hello world";
+
+        protected override void OnExecute() 
+        {
+            EndAction(true);
+        }
+    }
+#ROOTNAMESPACEEND#

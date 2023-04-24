@@ -1,0 +1,18 @@
+{
+    "name": "BG.AI",
+    "rootNamespace": "BG.AI",
+    "references": [
+        "GUID:139d4e2f6de198242a07c9bb157b1f9b",
+        "GUID:d2657ca7bc320d949a2f0220d960a78d",
+        "GUID:1bc1217dc25d58e4186dc0f2ef4575ef"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

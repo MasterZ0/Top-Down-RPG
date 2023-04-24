@@ -1,0 +1,19 @@
+{
+    "name": "BG.Editor",
+    "rootNamespace": "BG.Editor",
+    "references": [
+        "GUID:d2657ca7bc320d949a2f0220d960a78d",
+        "GUID:c989a70b549e5ae4192df515506b08ca"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

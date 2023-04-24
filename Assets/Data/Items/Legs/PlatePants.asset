@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85453e54609cbd84688d350ef1345a9d, type: 3}
+  m_Name: PlatePants
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 650747837756037119, guid: 431e20b2f1865474a826bc9c988c6824, type: 3}
+  material: {fileID: 0}
+  icon: {fileID: 472140264, guid: 00fe87d5d5bf13146b94d62c4b1fdb4f, type: 3}
+  sellingPrice: 0
+  buyPrice: 0
+  itemName: 
+  itemDescription: 

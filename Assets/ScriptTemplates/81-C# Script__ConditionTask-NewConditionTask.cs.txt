@@ -1,0 +1,17 @@
+using Z3.NodeGraph.Core;
+using AdventureGame.Shared;
+
+#ROOTNAMESPACEBEGIN# 
+
+    [Category(ProjectPath.ApplicationName + "/NewConditionTask")]
+    [Description("Please describe what this ConditionTask does.")]
+    public class #SCRIPTNAME# : ConditionTask 
+    {
+        [RequiredField] public BBParameter<bool> example = false;
+
+        protected override bool OnCheck() 
+        {
+            return example.value;
+        }
+    }
+#ROOTNAMESPACEEND#

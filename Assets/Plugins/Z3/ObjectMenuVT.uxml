@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Plugins/ObjectMenuSyle.uss?fileID=7433441132597879392&amp;guid=a59e072454cf0dd47b51ca3821dbfcf9&amp;type=3#ObjectMenuSyle" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+        <Z3.UIBuilder.Editor.SplitView fixed-pane-initial-dimension="300">
+            <ui:VisualElement name="treeViewContainer">
+                <ui:TreeView view-data-key="unity-tree-view" focusable="true" name="treeView" />
+            </ui:VisualElement>
+            <ui:VisualElement name="rightPanel" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+                <uie:Toolbar style="flex-direction: row;">
+                    <ui:VisualElement name="leftToolBar" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);" />
+                    <ui:VisualElement name="RightToolBar" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row-reverse;">
+                        <uie:ToolbarButton display-tooltip-when-elided="true" name="pingObject" style="min-width: 30px;" />
+                    </ui:VisualElement>
+                </uie:Toolbar>
+                <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" name="scrollView">
+                    <ui:VisualElement name="inspectorPanel" />
+                </ui:ScrollView>
+            </ui:VisualElement>
+        </Z3.UIBuilder.Editor.SplitView>
+    </ui:VisualElement>
+</ui:UXML>
