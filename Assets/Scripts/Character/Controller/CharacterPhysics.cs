@@ -15,9 +15,6 @@ namespace TD.Character
         [Header("Components")]
         [SerializeField] private Rigidbody2D rigidbody;
 
-        [Header("Points")]
-        [SerializeField] private Transform interactableCheckPoint;
-
         public Vector2 Velocity => rigidbody.velocity;
         public Vector2 Position => rigidbody.position;
         public Transform Transform => rigidbody.transform;

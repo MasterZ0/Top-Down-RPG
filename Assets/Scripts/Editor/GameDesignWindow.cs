@@ -4,8 +4,6 @@ using Z3.UIBuilder.Editor;
 using Z3.UIBuilder.Core;
 using Z3.UIBuilder;
 using TD.Items;
-using TD.Data;
-using UnityEditor.Callbacks;
 using UnityEngine.UIElements;
 
 namespace TD.Editor
@@ -22,17 +20,6 @@ namespace TD.Editor
         public static void ShowWindow()
         {
             GetWindow<GameDesignWindow>("Game Design");
-        }
-
-        [OnOpenAsset]
-        public static bool OpenEditor(int instanceId, int line)
-        {
-            if (EditorUtility.InstanceIDToObject(instanceId) is GameData)
-            {
-                ShowWindow();
-                return true;
-            }
-            return false;
         }
 
         protected override void BuildMenuTree(TreeMenu<ScriptableObject> tree)

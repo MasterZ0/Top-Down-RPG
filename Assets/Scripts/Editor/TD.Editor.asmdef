@@ -3,8 +3,8 @@
     "rootNamespace": "TD.Editor",
     "references": [
         "GUID:d2657ca7bc320d949a2f0220d960a78d",
-        "GUID:c989a70b549e5ae4192df515506b08ca",
-        "GUID:06b2d9ea4939b16448afaf0fd75a73b5"
+        "GUID:06b2d9ea4939b16448afaf0fd75a73b5",
+        "GUID:139d4e2f6de198242a07c9bb157b1f9b"
     ],
     "includePlatforms": [
         "Editor"
