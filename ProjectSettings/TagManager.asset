@@ -11,9 +11,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Scenary
+  - PlayerPhysics
+  - Interactable
   - 
   - 
   - 
@@ -38,6 +38,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 3021285087
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

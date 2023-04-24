@@ -18,7 +18,8 @@ namespace TD.Character
         [Header("Points")]
         [SerializeField] private Transform interactableCheckPoint;
 
-        public Vector3 Velocity => rigidbody.velocity;
+        public Vector2 Velocity => rigidbody.velocity;
+        public Vector2 Position => rigidbody.position;
         public Transform Transform => rigidbody.transform;
 
         public Vector2 Direction { get; private set; } = Vector2.down;

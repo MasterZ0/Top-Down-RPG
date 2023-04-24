@@ -1,5 +1,7 @@
 ﻿using System;
+using TD.Shared;
 using UnityEngine;
+
 namespace TD.Character
 {
     public class CharacterController : MonoBehaviour

@@ -18,5 +18,6 @@ MonoBehaviour:
   sellingPrice: 130
   buyPrice: 300
   itemName: 
-  itemDescription: A strong and durable helmet made of metal plates, protecting the
-    head during battles.
+  itemDescription: A helmet made from rare metals and enchanted with powerful magic.
+    It provides excellent protection to the wearer's head and can enhance their vision
+    and perception.

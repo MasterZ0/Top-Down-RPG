@@ -37,11 +37,9 @@ namespace TD.Editor
 
         protected override void BuildMenuTree(TreeMenu<ScriptableObject> tree)
         {
-            GameData gameData = AssetDatabase.LoadAssetAtPath<GameData>(MenuPath.GameData);
-
-            tree.AddGameData("Game Data", gameData);
-
-            tree.AddAllAssetsAtPath($"Game Data/Items", $"{MenuPath.DataFolder}/Items", typeof(ItemData), true, IconType.Gamepad);
+            tree.AddAllAssetsAtPath($"Items", $"{MenuPath.DataFolder}/Items", typeof(ItemData), true, IconType.Gamepad);
+            tree.AddAllAssetsAtPath($"NPCs", $"{MenuPath.DataFolder}/NPCs", typeof(ScriptableObject), true, IconType.Gamepad);
+            tree.AddAllAssetsAtPath($"Player", $"{MenuPath.DataFolder}/Player", typeof(ScriptableObject), true, IconType.Gamepad);
         }
 
         [UIElement("pingObject")]

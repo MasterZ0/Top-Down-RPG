@@ -7,34 +7,16 @@ using System.Collections.Generic;
 
 namespace TD.AI
 {
-    public class Merchant : BasicNPC, IInteractable
+    public class Merchant : BasicNPC
     {
         [Header("Merchant")]
-        [SerializeField] private GameObject questionPopup;
         [SerializeField] private SaleWindow saleScreen;
         [SerializeField] private PurchaseWindow purchaseScreen;
         [SerializeField] private List<ItemData> itemsToSell;
 
-        private CharacterPawn character;
-
-        public bool OnInteract(CharacterPawn character)
-        {
-            questionPopup.SetActive(true);
-
-            character.SetActiveController(false);
-            this.character = character;
-
-            moving = false;
-            move = Vector2.zero;
-            Vector2 direction = character.transform.position - transform.position;
-            pawn.Physics.LookAt(direction);
-
-            return true;
-        }
-
         public void OnOpenPurchase()
         {
-            questionPopup.SetActive(false);
+            popup.SetActive(false);
 
             WindowManager.OnCloseLastWindow += OnCloseLastWindow;
             purchaseScreen.SetItemsToSell(itemsToSell);
@@ -43,7 +25,7 @@ namespace TD.AI
 
         public void OnOpenSales()
         {
-            questionPopup.SetActive(false);
+            popup.SetActive(false);
 
             WindowManager.OnCloseLastWindow += OnCloseLastWindow;
             saleScreen.OpenStore(character.Inventory);
@@ -52,16 +34,7 @@ namespace TD.AI
         private void OnCloseLastWindow()
         {
             WindowManager.OnCloseLastWindow -= OnCloseLastWindow;
-            questionPopup.SetActive(true);
-        }
-
-        public void OnCancelInteraction()
-        {
-            moving = true;
-
-            questionPopup.SetActive(false);
-
-            character.SetActiveController(true);
+            popup.SetActive(true);
         }
     }
 }

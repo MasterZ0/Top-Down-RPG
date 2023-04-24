@@ -18,4 +18,5 @@ MonoBehaviour:
   sellingPrice: 150
   buyPrice: 300
   itemName: 
-  itemDescription: Gloves made of metal plates, protecting the hands during combat.
+  itemDescription: Gloves made from the same materials as the Sea Armor. They offer
+    excellent protection to the wearer's hands and can improve their grip and dexterity.

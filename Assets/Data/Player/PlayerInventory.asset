@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c64725011a4ad56479715fb7cc735292, type: 3}
+  m_Name: PlayerInventory
+  m_EditorClassIdentifier: 
+  gold: 2000
+  head: {fileID: 0}
+  torso: {fileID: 11400000, guid: 7d051ad8ab43dc240be99ac5f467e5a7, type: 2}
+  legs: {fileID: 11400000, guid: 514f659f8c28d7b43a7089db326c967d, type: 2}
+  hands: {fileID: 0}
+  feet: {fileID: 11400000, guid: 866503b0c0eeea94f9a3ea8926a80ad0, type: 2}
+  belt: {fileID: 0}

@@ -1,7 +1,7 @@
 #pingObject {
     min-width: 35px;
     -unity-background-scale-mode: scale-to-fit;
-    background-image: url('project://database/Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/show-dark@2x.png?fileID=2800000&guid=de4c62a7de5c61a41b5b0029b339f373&type=3#show-dark@2x');
+    background-image: url('project://database/Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Dark/d_Visibility_Tool@4x.png?fileID=2800000&guid=575e67e67fc4b3349bef2112e32f0be3&type=3#d_Visibility_Tool@4x');
 }
 
 #treeView {

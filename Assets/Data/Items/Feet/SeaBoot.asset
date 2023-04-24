@@ -18,5 +18,6 @@ MonoBehaviour:
   sellingPrice: 120
   buyPrice: 250
   itemName: 
-  itemDescription: Heavy boots made of metal plates, offering extra protection for
-    the feet and legs.
+  itemDescription: Boots crafted from sturdy materials found in the ocean. They offer
+    excellent protection to the wearer's feet and provide great mobility on land
+    and in water.

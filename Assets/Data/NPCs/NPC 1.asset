@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c64725011a4ad56479715fb7cc735292, type: 3}
+  m_Name: NPC 1
+  m_EditorClassIdentifier: 
+  gold: 0
+  head: {fileID: 11400000, guid: 7c382f17b7ab7314bb417b85170409ed, type: 2}
+  torso: {fileID: 11400000, guid: 5ac28a91aca552b40a26eef6eb8864ed, type: 2}
+  legs: {fileID: 11400000, guid: de7e8ee5acdb90a41bd7ccf5519094a3, type: 2}
+  hands: {fileID: 11400000, guid: 06ce711441013964f9499175521428ae, type: 2}
+  feet: {fileID: 11400000, guid: 417a5f296571d79438e106fb190b3958, type: 2}
+  belt: {fileID: 0}

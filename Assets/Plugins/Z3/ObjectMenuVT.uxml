@@ -1,5 +1,5 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
-    <Style src="project://database/Assets/Plugins/ObjectMenuSyle.uss?fileID=7433441132597879392&amp;guid=a59e072454cf0dd47b51ca3821dbfcf9&amp;type=3#ObjectMenuSyle" />
+    <Style src="project://database/Assets/Plugins/Z3/ObjectMenuSyle.uss?fileID=7433441132597879392&amp;guid=a59e072454cf0dd47b51ca3821dbfcf9&amp;type=3#ObjectMenuSyle" />
     <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
         <Z3.UIBuilder.Editor.SplitView fixed-pane-initial-dimension="300">
             <ui:VisualElement name="treeViewContainer">
