@@ -1,14 +1,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Z3.ObjectPooling;
-using BG.Inputs;
-using BG.Character;
-using BG.UI.Window;
-using BG.Items;
-//using BG.Data;
-//using BG.Audio;
+using TD.Inputs;
+using TD.Character;
+using TD.UI.Window;
+using TD.Items;
 
-namespace BG.UI
+namespace TD.UI
 {
     /// <summary>
     /// Controla os slots e o selector apenas

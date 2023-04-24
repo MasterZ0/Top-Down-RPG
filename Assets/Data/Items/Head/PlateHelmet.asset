@@ -15,7 +15,8 @@ MonoBehaviour:
   prefab: {fileID: -1183126736772959836, guid: 655428573a8d7df4e8bd6e41913315fa, type: 3}
   material: {fileID: 0}
   icon: {fileID: -133256808, guid: 00fe87d5d5bf13146b94d62c4b1fdb4f, type: 3}
-  sellingPrice: 0
-  buyPrice: 0
+  sellingPrice: 130
+  buyPrice: 300
   itemName: 
-  itemDescription: 
+  itemDescription: A strong and durable helmet made of metal plates, protecting the
+    head during battles.

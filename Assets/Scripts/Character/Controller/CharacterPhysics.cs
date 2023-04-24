@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System;
 
-namespace BG.Character
+namespace TD.Character
 {
     /// <summary>
     /// Handles Character physics

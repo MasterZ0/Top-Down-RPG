@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace BG.Items
+namespace TD.Items
 {
     public class Inventory
     {
@@ -24,6 +24,7 @@ namespace BG.Items
                 storedItems.Add(null);
             }
 
+            Gold = defaultInventory.gold;
             Head = defaultInventory.head;
             Torso = defaultInventory.torso;
             Belt = defaultInventory.belt;

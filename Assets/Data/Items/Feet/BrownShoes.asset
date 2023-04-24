@@ -15,7 +15,8 @@ MonoBehaviour:
   prefab: {fileID: 9073784517085831797, guid: e649e84cfbc9bf1448c8084fdfd8c5d1, type: 3}
   material: {fileID: 0}
   icon: {fileID: 1160546828, guid: 00fe87d5d5bf13146b94d62c4b1fdb4f, type: 3}
-  sellingPrice: 0
+  sellingPrice: 40
   buyPrice: 80
   itemName: 
-  itemDescription: 
+  itemDescription: ' A pair of comfortable brown shoes, suitable for long journeys
+    or battles.'

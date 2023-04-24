@@ -1,9 +1,9 @@
-using BG.Inputs;
-using BG.UI;
+using TD.Inputs;
+using TD.UI;
 using UnityEngine;
-using CharacterController = BG.Character.CharacterController;
+using CharacterController = TD.Character.CharacterController;
 
-namespace BG.Player
+namespace TD.Player
 {
     public class PlayerController : CharacterController
     {

@@ -1,6 +1,6 @@
-﻿using BG.Data;
+﻿using TD.Data;
 
-namespace BG.Character
+namespace TD.Character
 {
     public abstract class CharacterControllerComponent
     { 

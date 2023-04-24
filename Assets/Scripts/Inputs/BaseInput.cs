@@ -1,4 +1,4 @@
-namespace BG.Inputs
+namespace TD.Inputs
 {
     public abstract class BaseInput
     {

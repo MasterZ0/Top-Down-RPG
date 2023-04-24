@@ -1,5 +1,5 @@
 ﻿using System;
-namespace BG.Character
+namespace TD.Character
 {
     public class BoolSetter
     {

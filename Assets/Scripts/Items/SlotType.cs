@@ -1,4 +1,4 @@
-﻿namespace BG.Items
+﻿namespace TD.Items
 {
     public enum SlotType
     {

@@ -15,7 +15,7 @@ MonoBehaviour:
   prefab: {fileID: 8796119560991227339, guid: ce48f762a97b37048b2bc7697cfec26b, type: 3}
   material: {fileID: 0}
   icon: {fileID: -446140818, guid: 00fe87d5d5bf13146b94d62c4b1fdb4f, type: 3}
-  sellingPrice: 0
+  sellingPrice: 150
   buyPrice: 300
   itemName: 
-  itemDescription: 
+  itemDescription: Gloves made of metal plates, protecting the hands during combat.

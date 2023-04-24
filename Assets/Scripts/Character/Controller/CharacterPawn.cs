@@ -1,8 +1,8 @@
 using UnityEngine;
-using BG.Data;
-using BG.Items;
+using TD.Data;
+using TD.Items;
 
-namespace BG.Character
+namespace TD.Character
 {
     public interface IInteractable
     {

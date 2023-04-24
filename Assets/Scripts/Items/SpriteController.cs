@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace BG.Items
+namespace TD.Items
 {
     public class SpriteController : MonoBehaviour
     {
@@ -11,6 +11,12 @@ namespace BG.Items
         [SerializeField] private List<Animator> animators;
 
         public ItemData Item { get; private set; }
+        private Material defaultMaterial;
+
+        private void Awake()
+        {
+            defaultMaterial = spriteRenderers[0].material;
+        }
 
         private void Reset()
         {
@@ -20,6 +26,12 @@ namespace BG.Items
         public void Setup(ItemData item)
         {
             Item = item;
+
+            Material material = item.Material ? item.Material : defaultMaterial;
+            foreach (SpriteRenderer spriteRenderer in spriteRenderers)
+            {
+                spriteRenderer.material = material;
+            }
         }
 
         public void Play(string clipName)
@@ -35,14 +47,6 @@ namespace BG.Items
             foreach (Animator animator in animators)
             {
                 animator.SetFloat(parameter, value);
-            }
-        }
-
-        private void SetMaterial(Material material)
-        {
-            foreach (SpriteRenderer spriteRenderer in spriteRenderers)
-            {
-                spriteRenderer.material = material;
             }
         }
     }

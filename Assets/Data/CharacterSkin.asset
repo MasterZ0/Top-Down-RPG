@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c64725011a4ad56479715fb7cc735292, type: 3}
   m_Name: CharacterSkin
   m_EditorClassIdentifier: 
+  gold: 100
   head: {fileID: 0}
   torso: {fileID: 11400000, guid: 7d051ad8ab43dc240be99ac5f467e5a7, type: 2}
   legs: {fileID: 11400000, guid: 514f659f8c28d7b43a7089db326c967d, type: 2}

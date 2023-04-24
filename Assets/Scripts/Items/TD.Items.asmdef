@@ -1,0 +1,16 @@
+{
+    "name": "TD.Items",
+    "rootNamespace": "TD.Items",
+    "references": [
+        "GUID:06b2d9ea4939b16448afaf0fd75a73b5"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

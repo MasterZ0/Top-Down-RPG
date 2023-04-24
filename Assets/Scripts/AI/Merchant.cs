@@ -1,26 +1,21 @@
 ﻿using UnityEngine;
-using BG.Character;
-using BG.UI;
-using BG.UI.Window;
-using BG.Items;
+using TD.Character;
+using TD.UI;
+using TD.UI.Window;
+using TD.Items;
 using System.Collections.Generic;
 
-namespace BG.AI
+namespace TD.AI
 {
     public class Merchant : BasicNPC, IInteractable
     {
         [Header("Merchant")]
         [SerializeField] private GameObject questionPopup;
-        [SerializeField] private SaleScreen saleScreen;
-        [SerializeField] private PurchaseScreen purchaseScreen;
+        [SerializeField] private SaleWindow saleScreen;
+        [SerializeField] private PurchaseWindow purchaseScreen;
         [SerializeField] private List<ItemData> itemsToSell;
 
         private CharacterPawn character;
-
-        private void Start()
-        {
-            saleScreen.SetItemsToSell(itemsToSell);
-        }
 
         public bool OnInteract(CharacterPawn character)
         {
@@ -40,13 +35,16 @@ namespace BG.AI
         public void OnOpenPurchase()
         {
             questionPopup.SetActive(false);
+
             WindowManager.OnCloseLastWindow += OnCloseLastWindow;
+            purchaseScreen.SetItemsToSell(itemsToSell);
             purchaseScreen.OpenStore(character.Inventory);
         }
 
         public void OnOpenSales()
         {
             questionPopup.SetActive(false);
+
             WindowManager.OnCloseLastWindow += OnCloseLastWindow;
             saleScreen.OpenStore(character.Inventory);
         }

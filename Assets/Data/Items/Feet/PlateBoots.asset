@@ -15,7 +15,8 @@ MonoBehaviour:
   prefab: {fileID: -2766376345284078287, guid: 77b2955693a1d08438ed9d913b53cbe9, type: 3}
   material: {fileID: 0}
   icon: {fileID: -942454785, guid: 00fe87d5d5bf13146b94d62c4b1fdb4f, type: 3}
-  sellingPrice: 0
+  sellingPrice: 120
   buyPrice: 250
   itemName: 
-  itemDescription: 
+  itemDescription: Heavy boots made of metal plates, offering extra protection for
+    the feet and legs.

@@ -15,7 +15,8 @@ MonoBehaviour:
   prefab: {fileID: 279265608308472259, guid: 26e28ebf825058b47bf03431ae50bd23, type: 3}
   material: {fileID: 0}
   icon: {fileID: -248683496, guid: 31cc9a115d4489342a5295bd416d2196, type: 3}
-  sellingPrice: 0
-  buyPrice: 0
+  sellingPrice: 200
+  buyPrice: 300
   itemName: 
-  itemDescription: 
+  itemDescription: A stylish and fashionable leather hat, enhancing the wearer's
+    appearance.

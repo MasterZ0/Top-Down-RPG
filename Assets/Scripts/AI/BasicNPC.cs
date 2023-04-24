@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace BG.AI
+namespace TD.AI
 {
     using CharacterController = Character.CharacterController;
 

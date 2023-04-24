@@ -2,7 +2,7 @@
 using UnityEngine.InputSystem;
 using CallbackContext = UnityEngine.InputSystem.InputAction.CallbackContext;
 
-namespace BG.Inputs
+namespace TD.Inputs
 {
     public class InputButtonRegister
     {

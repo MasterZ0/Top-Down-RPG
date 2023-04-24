@@ -1,6 +1,6 @@
 ﻿using System;
 using UnityEngine;
-namespace BG.Character
+namespace TD.Character
 {
     public class CharacterController : MonoBehaviour
     {

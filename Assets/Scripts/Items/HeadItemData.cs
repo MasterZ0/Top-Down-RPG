@@ -1,7 +1,7 @@
-﻿using BG.Shared;
+﻿using TD.Shared;
 using UnityEngine;
 
-namespace BG.Items
+namespace TD.Items
 {
     [CreateAssetMenu(menuName = MenuPath.Items + "Head", fileName = "New" + nameof(HeadItemData))]
     public class HeadItemData : ItemData

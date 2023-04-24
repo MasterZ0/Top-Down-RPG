@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace BG.UI.Window
+namespace TD.UI.Window
 {
     /// <summary>
     /// Controls which Window are open

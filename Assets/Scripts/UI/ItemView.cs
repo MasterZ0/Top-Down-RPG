@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
-using BG.Items;
+using TD.Items;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-namespace BG.UI
+namespace TD.UI
 {
     public class ItemView : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerDownHandler
     {
@@ -45,18 +45,50 @@ namespace BG.UI
         {
             if (eventData.pointerEnter != null)
             {
-                ItemSlot itemSlot = eventData.pointerEnter.GetComponent<ItemSlot>();
-                if (itemSlot != null && slot != itemSlot && itemSlot.CanDrop(this))
+                ItemSlot otherSlot;
+                ItemView otherView = eventData.pointerEnter.GetComponent<ItemView>();
+
+                if (otherView != null)
                 {
-                    slot.SetItemView(null);
-                    slot = itemSlot;
-                    slot.SetItemView(this);
+                    otherSlot = otherView.slot;
+                    Replace(this, slot, otherView, otherSlot);
+                }
+                else
+                {
+                    otherSlot = eventData.pointerEnter.GetComponent<ItemSlot>();
+
+                    if (otherSlot != null && slot != otherSlot)
+                    {
+                        otherView = otherSlot.ItemView;
+                        Replace(this, slot, otherView, otherSlot);
+                    }
                 }
             }
 
-            canvasGroup.blocksRaycasts = true;
-            transform.SetParent(slot.transform);
             transform.position = slot.transform.position;
+            transform.SetParent(slot.transform);
+
+            canvasGroup.blocksRaycasts = true;
+        }
+
+        private static void Replace(ItemView itemView, ItemSlot currentSlot, ItemView otherView, ItemSlot otherSlot)
+        {
+            if (otherSlot.CanDrop(itemView) && currentSlot.CanDrop(otherView))
+            {
+                // Swap the item views between the two slots
+                currentSlot.SetItemView(otherView);
+                otherSlot.SetItemView(itemView);
+
+                // Update the slot references of the item views
+                itemView.slot = otherSlot;
+
+                if (otherView != null)
+                {
+                    otherView.slot = currentSlot;
+                    otherView.transform.position = otherView.slot.transform.position;
+                    otherView.transform.SetParent(otherView.slot.transform);
+                }
+            }
         }
 
         public void OnPointerDown(PointerEventData eventData)

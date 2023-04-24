@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 using TMPro;
-using BG.Items;
+using TD.Items;
 using UnityEngine.UI;
 
-namespace BG.UI
+namespace TD.UI
 {
     public class ItemInfoPanel : MonoBehaviour
     {

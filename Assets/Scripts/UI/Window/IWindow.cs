@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace BG.UI.Window
+namespace TD.UI.Window
 {
     /// <summary>
     /// The gameobject that inherits from this interface will be a window

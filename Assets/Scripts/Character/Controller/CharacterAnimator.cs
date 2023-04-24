@@ -1,8 +1,8 @@
-﻿using BG.Items;
+﻿using TD.Items;
 using System;
 using UnityEngine;
 
-namespace BG.Character
+namespace TD.Character
 {
     [Serializable]
     public sealed class CharacterAnimator : CharacterControllerComponent

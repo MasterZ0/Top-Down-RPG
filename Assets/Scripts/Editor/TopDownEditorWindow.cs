@@ -1,18 +1,16 @@
-using BG.Gameplay;
+using TD.Gameplay;
 using System.IO;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace BG.Editor
+namespace TD.Editor
 {
+    using MenuPath = Shared.MenuPath;
 
-    /// <summary>
-    /// Note to developers: Please describe what this class does.
-    /// </summary>
     public class TopDownEditorWindow : EditorWindow
     {
-        [MenuItem("Blue Gravity/Add TopDownSpriteUpdater to Prefabs")]
+        [MenuItem(MenuPath.ProjectName + "/Tools")]
         private static void AddComponentToPrefabs()
         {
             GetWindow<TopDownEditorWindow>("Tools");

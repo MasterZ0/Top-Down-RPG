@@ -1,0 +1,20 @@
+{
+    "name": "TD.Player",
+    "rootNamespace": "TD.Player",
+    "references": [
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:f6b6ddedb8b07f34e8dff7c3adf5b776",
+        "GUID:139d4e2f6de198242a07c9bb157b1f9b",
+        "GUID:1bc1217dc25d58e4186dc0f2ef4575ef",
+        "GUID:d2657ca7bc320d949a2f0220d960a78d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

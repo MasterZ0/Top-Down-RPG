@@ -16,6 +16,7 @@ MonoBehaviour:
   material: {fileID: 0}
   icon: {fileID: -1259409885, guid: 00fe87d5d5bf13146b94d62c4b1fdb4f, type: 3}
   sellingPrice: 1000
-  buyPrice: 0
-  itemName: 
-  itemDescription: 
+  buyPrice: 10
+  itemName: Lether Belt
+  itemDescription: "A simple yet sturdy belt made of leather, useful for holding
+    various items such as potions or keys. \n\n(Has a high selling price)"

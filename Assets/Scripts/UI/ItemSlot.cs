@@ -1,8 +1,8 @@
-using BG.Items;
+using TD.Items;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace BG.UI
+namespace TD.UI
 {
 
     public class ItemSlot : MonoBehaviour, IDropHandler
@@ -10,11 +10,10 @@ namespace BG.UI
         [SerializeField] private SlotType slotType;
 
         public SlotType SlotType => slotType;
-
-        private ItemView itemView;
-        private int index = -1;
+        public ItemView ItemView { get; private set; }
 
         private EquipmentWindow controller;
+        private int index = -1;
 
         internal void InitAsStore(int index, EquipmentWindow controller)
         {
@@ -30,17 +29,17 @@ namespace BG.UI
 
         public void SetItemViewWithoutNotification(ItemView itemView)
         {
-            this.itemView = itemView;
+            ItemView = itemView;
         }
 
         public void SetItemView(ItemView itemView)
         {
-            this.itemView = itemView;
+            ItemView = itemView;
             ItemData item = itemView ? itemView.Item : null;
             controller.SetSlot(item, slotType, index);
         }
 
-        public bool CanDrop(ItemView itemView) => this.itemView == null && slotType.CompareType(itemView.Item.ItemType);
+        public bool CanDrop(ItemView itemView) => itemView == null || slotType.CompareType(itemView.Item.ItemType);
 
         public void OnDrop(PointerEventData eventData) { }
     }

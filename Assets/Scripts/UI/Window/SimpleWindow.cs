@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
 
-namespace BG.UI.Window
+namespace TD.UI.Window
 {
     /// <summary>
     /// Generic and basic implementation

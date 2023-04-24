@@ -1,10 +1,10 @@
-﻿using BG.Items;
+﻿using TD.Items;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace BG.Character
+namespace TD.Character
 {
     [Serializable]
     public class CharacterInventoryController : CharacterControllerComponent

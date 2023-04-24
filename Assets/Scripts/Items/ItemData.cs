@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace BG.Items
+namespace TD.Items
 {
     public enum ItemType
     {
@@ -31,6 +31,7 @@ namespace BG.Items
         [SerializeField] private int sellingPrice;
         [SerializeField] private int buyPrice;
         [SerializeField] private string itemName;
+        [TextArea]
         [SerializeField] private string itemDescription;
 
         public string ItemName => !string.IsNullOrEmpty(itemName) ? itemName : name;

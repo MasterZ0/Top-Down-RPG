@@ -1,0 +1,17 @@
+{
+    "name": "TD.Character",
+    "rootNamespace": "TD.Character",
+    "references": [
+        "GUID:d2657ca7bc320d949a2f0220d960a78d",
+        "GUID:06b2d9ea4939b16448afaf0fd75a73b5"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

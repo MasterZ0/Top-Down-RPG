@@ -1,4 +1,4 @@
-﻿namespace BG.UI.Window
+﻿namespace TD.UI.Window
 {
     /// <summary>
     /// Extensions to make interfaces easier to use <see cref="IWindow"/>

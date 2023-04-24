@@ -15,7 +15,8 @@ MonoBehaviour:
   prefab: {fileID: 650747837756037119, guid: 431e20b2f1865474a826bc9c988c6824, type: 3}
   material: {fileID: 0}
   icon: {fileID: 472140264, guid: 00fe87d5d5bf13146b94d62c4b1fdb4f, type: 3}
-  sellingPrice: 0
-  buyPrice: 0
+  sellingPrice: 110
+  buyPrice: 250
   itemName: 
-  itemDescription: 
+  itemDescription: Heavy pants made of metal plates, offering extra protection for
+    the legs and hips.

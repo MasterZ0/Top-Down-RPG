@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25f2d2b3b26ea054a908f97215d8826c, type: 3}
+  m_Name: SeaHelmet
+  m_EditorClassIdentifier: 
+  prefab: {fileID: -1183126736772959836, guid: 655428573a8d7df4e8bd6e41913315fa, type: 3}
+  material: {fileID: 2100000, guid: a66143c80bea33841a7c27e9c69758de, type: 2}
+  icon: {fileID: -442153778, guid: 00fe87d5d5bf13146b94d62c4b1fdb4f, type: 3}
+  sellingPrice: 130
+  buyPrice: 300
+  itemName: 
+  itemDescription: A strong and durable helmet made of metal plates, protecting the
+    head during battles.

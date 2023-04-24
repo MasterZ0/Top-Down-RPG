@@ -85,7 +85,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 026dfdf36f749bf4b88a6c76be8e023a, type: 2}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -119,7 +119,7 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 --- !u!95 &3593052497023116249
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -136,7 +136,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &851338607102755927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -184,7 +185,7 @@ Transform:
   - {fileID: 3323924077352204375}
   - {fileID: 4262852118710281778}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7734005766673658927
 MonoBehaviour:
@@ -198,12 +199,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 294438861ef796d45aa52746fe595492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  head: {fileID: 0}
-  torso: {fileID: 0}
-  hand: {fileID: 0}
-  belt: {fileID: 0}
-  legs: {fileID: 0}
-  feet: {fileID: 0}
   itemContainer: {fileID: 4262852118710281778}
   hair: {fileID: 5818442885022051358}
   body: {fileID: 3593052497023116249}
@@ -295,7 +290,7 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 --- !u!95 &5818442885022051358
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -312,7 +307,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &5256098347419846349
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -15,7 +15,8 @@ MonoBehaviour:
   prefab: {fileID: 7667840510429787286, guid: 16af9206423eae6468c938f293c9029a, type: 3}
   material: {fileID: 0}
   icon: {fileID: -1797473889, guid: 00fe87d5d5bf13146b94d62c4b1fdb4f, type: 3}
-  sellingPrice: 0
-  buyPrice: 0
+  sellingPrice: 20
+  buyPrice: 80
   itemName: 
-  itemDescription: 
+  itemDescription: A pair of greenish pants, providing some protection while allowing
+    for easy movement.

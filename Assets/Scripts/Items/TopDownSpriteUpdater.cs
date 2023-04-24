@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace BG.Gameplay
+namespace TD.Gameplay
 {
     [RequireComponent(typeof(SpriteRenderer))]
     public class TopDownSpriteUpdater : MonoBehaviour

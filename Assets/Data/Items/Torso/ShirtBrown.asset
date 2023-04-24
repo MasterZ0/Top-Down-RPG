@@ -15,7 +15,7 @@ MonoBehaviour:
   prefab: {fileID: -4637131814631560406, guid: 7fc1de72b40a42349b8dcb33c4ab6567, type: 3}
   material: {fileID: 0}
   icon: {fileID: -21159864, guid: 00fe87d5d5bf13146b94d62c4b1fdb4f, type: 3}
-  sellingPrice: 0
-  buyPrice: 0
+  sellingPrice: 50
+  buyPrice: 120
   itemName: 
-  itemDescription: 
+  itemDescription: A brown shirt, suitable for everyday wear or light combat situations.

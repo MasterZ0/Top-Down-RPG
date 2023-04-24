@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
-using BG.Items;
-using BG.UI;
+using TD.Items;
+using TD.UI;
 using System;
 
-namespace BG.Player
+namespace TD.Player
 {
     //public class EquipmentSlot : ItemSlot
     //{

@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System;
 using System.Security.Cryptography.X509Certificates;
+using Z3.ObjectPooling;
 
-namespace BG.Items
+namespace TD.Items
 {
     [System.Serializable]
     public class ModelController : MonoBehaviour
@@ -39,13 +40,13 @@ namespace BG.Items
             if (items.TryGetValue(itemType, out SpriteController spriteController))
             {
                 items.Remove(itemType);
-                Destroy(spriteController.gameObject);
+                spriteController.ReturnToPool();
             }
 
             if (item == null)
                 return;
 
-            SpriteController newItem = Instantiate(item.Prefab, itemContainer.position, Quaternion.identity, itemContainer);
+            SpriteController newItem = ObjectPool.SpawnPooledObject(item.Prefab, itemContainer.position, Quaternion.identity, itemContainer);
             newItem.Setup(item);
             items.Add(itemType, newItem);
         }

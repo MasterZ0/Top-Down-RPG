@@ -15,7 +15,8 @@ MonoBehaviour:
   prefab: {fileID: 5936673326984968309, guid: 08b59c9b3b18f584cb34bb2cfc2c261f, type: 3}
   material: {fileID: 0}
   icon: {fileID: 896727898, guid: 00fe87d5d5bf13146b94d62c4b1fdb4f, type: 3}
-  sellingPrice: 0
-  buyPrice: 0
+  sellingPrice: 300
+  buyPrice: 450
   itemName: 
-  itemDescription: 
+  itemDescription: A set of armor made of metal plates, providing excellent protection
+    for the whole body.

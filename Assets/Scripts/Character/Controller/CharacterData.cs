@@ -1,8 +1,8 @@
 ﻿//using AdventureGame.Shared;
-using BG.Shared;
+using TD.Shared;
 using UnityEngine;
 
-namespace BG.Data
+namespace TD.Data
 {
     [CreateAssetMenu(menuName = MenuPath.Data + "Character", fileName = "New" + nameof(CharacterData))]
     public class CharacterData : ScriptableObject

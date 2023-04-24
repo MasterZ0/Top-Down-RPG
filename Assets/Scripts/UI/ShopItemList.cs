@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 using TMPro;
-using BG.Items;
+using TD.Items;
 using UnityEngine.UI;
 
-namespace BG.UI
+namespace TD.UI
 {
     public class ShopItemList : MonoBehaviour
     {
@@ -12,9 +12,9 @@ namespace BG.UI
         [SerializeField] private TMP_Text price;
 
         public ItemData Item { get; private set; }
-        private ShopScreen shopScreen;
+        private ShopWindow shopScreen;
 
-        internal void Setup(PurchaseScreen shopScreen, ItemData item)
+        internal void Setup(SaleWindow shopScreen, ItemData item)
         {
             this.shopScreen = shopScreen;
             Item = item;
@@ -22,20 +22,16 @@ namespace BG.UI
             itemName.text = item.ItemName;
             price.text = item.SellingPrice.ToString();
             icon.sprite = item.Icon;
+            price.color = Color.white;
         }
 
-        internal void Setup(SaleScreen shopScreen, ItemData item)
+        internal void Setup(PurchaseWindow shopScreen, ItemData item)
         {
             this.shopScreen = shopScreen;
             Item = item;
 
             itemName.text = item.ItemName;
             icon.sprite = item.Icon;
-        }
-
-        public void OnSubmit()
-        {
-            shopScreen.SelectListItem(this);
         }
 
         internal void UpdatePriceColor(int playerGold)
@@ -44,6 +40,11 @@ namespace BG.UI
 
             price.text = $"{Item.BuyPrice}";
             price.color = cabBuy ? Color.white : Color.red;
+        }
+
+        public void OnSubmit()
+        {
+            shopScreen.SelectListItem(this);
         }
     }
 }
