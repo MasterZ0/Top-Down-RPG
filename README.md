@@ -1,5 +1,7 @@
 # Top Down RPG
 
+- [Download Build](https://drive.google.com/file/d/1Me42y8RWbqvy542cmQccmalTNNewFhlE/view?usp=sharing)
+
 ## Character Customizations
 
 The main features is Character Skin Customization. The character's body is composed of several sprites, which allows players to change the appearance of their characters through items.
@@ -54,3 +56,50 @@ Included some personal libraries that I created.
 
 ![image](https://user-images.githubusercontent.com/64444068/234123985-88b11a21-a48f-4989-8098-795006d8afbd.png)
 
+All Scriptable objects is located in this folder
+
+![image](https://user-images.githubusercontent.com/64444068/234132268-46364510-98de-46d5-8df1-7f4993c5f4b1.png)
+
+## Scripts
+
+Resume: The most important are Character and UI. The others are very simple.
+
+### AI
+
+Used to control input from Characaters NPCs. They have basic movement and interaction behaviors.
+
+![image](https://user-images.githubusercontent.com/64444068/234130336-c03387d9-a02b-4421-9fd7-3cb864b726d3.png)
+
+### Application
+
+Just the quit button in an organized folder
+
+### Character
+
+Here, where most of the code is concentrated, is an architecture based on Unreal's Pawn. Both the player and the AI will own the body of a Character, and it will be responsible for managing the inputs of its controller, including Physics, Inventory Animation and Sprites.
+
+![image](https://user-images.githubusercontent.com/64444068/234130980-ef0691c0-ee40-4bba-a2f3-736126b72c6e.png)
+
+### Editor
+
+Class to display the game's scriptable objects and a tool I created to facilitate the inclusion of components in prefabs.
+
+### Inputs
+
+Integration with the unity input system used in the player
+
+### Items
+
+Scriptable objects and fields, will be interpreted mainly by Character and UI.
+
+### Player
+
+Character controller that uses the input. They also have references of the UIs used by the player
+
+### Shared
+
+Asset paths for Scriptable Objects and a generic class used in CharacterController
+
+### UI
+
+Interface that allows the player to manipulate data from controllers such as the store and inventory
