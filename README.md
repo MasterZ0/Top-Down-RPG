@@ -1,7 +1,5 @@
 # Top Down RPG
 
-- [Download Build](https://drive.google.com/file/d/1Me42y8RWbqvy542cmQccmalTNNewFhlE/view?usp=sharing)
-
 ## Character Customizations
 
 The main features is Character Skin Customization. The character's body is composed of several sprites, which allows players to change the appearance of their characters through items.
